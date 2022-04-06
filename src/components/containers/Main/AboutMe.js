@@ -7,16 +7,17 @@ const Container = styled.section`
 `;
 
 const Date = styled.p`
-    font-size: 2em;
+    font-size: calc(0.7em + 2vw);
     font-weight: 300;
 `;
 
 const Title = styled.h1`
-    font-size: 3.3em;
+    font-size: calc(1.8em + 2vw);
+    margin: 0 0 1rem 0;
 `;
 
 const Description = styled.span`
-    font-size: 2.7em;
+    font-size: calc(1.1em + 2vw);
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -25,8 +26,8 @@ const Description = styled.span`
         content: "";
         right: 32rem;
         top: 44.3rem;
-        width: 0.4rem;
-        height: 2.2rem;
+        width: 0.2rem;
+        height: 1.6rem;
         background: #FFFFFF;
         animation: cursor-blink 1s steps(2) infinite;
     }

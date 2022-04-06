@@ -5,25 +5,25 @@ import StackGrind from './../Experience/StackGrind';
 
 const Container = styled.div`
     border-radius: 1rem;
+    padding-block-end: 3rem;
+    padding-block-start: 3rem;
     background-color: #121212;
     background-image: url(${process.env.PUBLIC_URL}/img/GrindVector.svg);
     background-repeat: no-repeat;
-    background-position: -20% 60%;
-    background-size: 50rem;
-    padding-block-end: 3rem;
-    padding-block-start: 3rem;
+    background-position: 0% 30%;
+    background-size: 30rem;
 
     h1 {
-        font-size: 4.2em;
         margin: 0 0 1rem 0;
+        padding: 0 calc(2rem + 1vw) 0 calc(2rem + 1vw);
+        font-size: calc(2.5em + 1vw);
         font-weight: 900;
-        padding: 0 3rem 0 3rem;
     }
 
     p { 
-        padding: 0 3rem 0 3rem;
-        font-size: 3em;
+        padding: 0 calc(2rem + 1vw) 0 calc(2rem + 1vw);
         margin-top: 0;
+        font-size: calc(1.5em + 1vw);
     }
 `
 

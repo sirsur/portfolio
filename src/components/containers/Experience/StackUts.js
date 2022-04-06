@@ -6,19 +6,19 @@ const Container = styled.div`
     margin-top: 2rem;
     position: relative;
     width: 100vw;
-    right: 6rem;
+    right: 2.4rem;
 `;
 
 const ContainerFlex = styled.span`
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 2rem;
     width: fit-content;
-    padding: 0 6rem 0 9rem;
+    padding: 0 4rem 0 4.4rem;
     position: relative;
 
     img {
-        height: 6rem;
+        height: 4rem;
     }
 `;
 

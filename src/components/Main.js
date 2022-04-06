@@ -8,8 +8,7 @@ import Links from './containers/Main/Links';
 import Footer from './containers/Main/Footer';
 
 const Container = styled.div` 
-    width: auto;
-    padding: 6rem 4rem 4rem 4rem;
+    padding: calc(4rem + 2vw) calc(2rem + 2vw) calc(2rem + 2vw) calc(2rem + 2vw);
     background-color: #000000;
 `;
 

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Container = styled.footer`
     display: flex;
     justify-content: flex-end;
-    font-size: 2em;
+    font-size: calc(1em + 1vw);
     margin-top: 8rem;
     text-align: end;
 `;

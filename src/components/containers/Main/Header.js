@@ -16,6 +16,10 @@ const Link = styled.a`
     &:hover {
         color: #FFFFFF;
     }
+
+    @media (max-width: 900px) {
+        font-size: 1.5em;
+    }
 `;
 
 const Header = () => {

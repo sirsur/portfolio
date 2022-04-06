@@ -3,7 +3,9 @@ import styled from 'styled-components';
 
 const Container = styled.div` 
     background-color: #2400FF;
-    font-size: 5em;
+    width: 100vw;
+    height: 100vh;
+    font-size: calc(3em + 10vw);
     font-weight: 700;
     padding-block-end: 8rem;
     padding-block-start: 8rem;

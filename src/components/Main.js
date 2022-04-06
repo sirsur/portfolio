@@ -8,8 +8,9 @@ import Links from './containers/Main/Links';
 import Footer from './containers/Main/Footer';
 
 const Container = styled.div` 
-    background-color: #000000;
+    width: auto;
     padding: 6rem 4rem 4rem 4rem;
+    background-color: #000000;
 `;
 
 const Main = () => {

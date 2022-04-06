@@ -8,7 +8,7 @@ const Container = styled.section`
 const Link = styled.div`
     display: flex;
     margin-top: 2rem;
-    font-size: 2.5em;
+    font-size: calc(2.5em + 1vw);
 `;
 
 const A = styled.a`
@@ -40,7 +40,7 @@ const Links = () => {
             </Link>
             <Link>
                 <img src={process.env.PUBLIC_URL + '/img/Mail.svg'} alt='Mail' height='60vh' />
-                <p style={{ alignSelf: 'center', margin: '0 0 0 1rem' }}>casimowa.c2001@gmail.com</p>
+                <p style={{ alignSelf: 'center', margin: '0 0 0 1rem' }}>casimowa.c2001</p>
             </Link>
         </Container>
     );

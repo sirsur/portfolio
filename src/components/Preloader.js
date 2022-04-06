@@ -3,14 +3,13 @@ import styled from 'styled-components';
 
 const Container = styled.div` 
     background-color: #2400FF;
-    font-size: 7em;
+    font-size: 5em;
     font-weight: 700;
-    padding-top: 8rem;
+    padding-block-end: 8rem;
+    padding-block-start: 8rem;
     padding-left: 2rem;
     padding-right: 2rem;
     position: absolute;
-    width: 100%;
-    height: 100%;
 `;
 
 const Title = styled.p`

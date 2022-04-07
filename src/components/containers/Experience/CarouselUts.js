@@ -17,7 +17,7 @@ const ContainerFlex = styled.span`
     position: relative;
 
     img {
-        height: 25rem;
+        height: 20rem;
         border-radius: 1rem;
     }
 `;
@@ -29,12 +29,10 @@ const CarouselUts = () => {
                 <img
                 src={process.env.PUBLIC_URL + '/img/uts1.svg'} 
                 alt="First slide"
-                style={{ height: '40rem' }}
                 />
                 <img
                 src={process.env.PUBLIC_URL + '/img/uts2.svg'} 
                 alt="Second slide"
-                style={{ height: '40rem' }}
                 />
             </ContainerFlex>
         </Container>

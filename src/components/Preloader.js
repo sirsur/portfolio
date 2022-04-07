@@ -2,16 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div` 
-    background-color: #2400FF;
+    position: absolute; 
+    padding: 3.5rem 2rem 5rem 2rem;
     width: 100vw;
     height: 100vh;
-    font-size: calc(3em + 10vw);
+    font-size: 3em;
     font-weight: 700;
-    padding-block-end: 8rem;
-    padding-block-start: 8rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    position: absolute;
+    background-color: #2400FF;
 `;
 
 const Title = styled.p`

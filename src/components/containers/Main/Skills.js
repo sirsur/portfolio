@@ -41,7 +41,7 @@ const Skills = () => {
             <SyntaxHighlighter 
                 language = "sql" 
                 style = { paraisoDark }
-                customStyle = {{ backgroundColor: '#121212', borderRadius: '30px', fontSize: 'calc(0.5em + 1.5vw)', padding: 'calc(1rem + 1vw) 0 calc(2rem + 1vw) 0' }}
+                customStyle = {{ backgroundColor: '#121212', borderRadius: '30px', fontSize: 'calc(0.5em + 1.5vw)', padding: 'calc(0.5rem + 1vw) 0 calc(1.5rem + 1vw) 0' }}
             > 
                 { Code }
             </SyntaxHighlighter>

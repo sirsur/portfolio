@@ -5,7 +5,7 @@ const Container = styled.footer`
     display: flex;
     justify-content: flex-end;
     font-size: calc(1em + 1vw);
-    margin-top: 8rem;
+    margin-top: 6rem;
     text-align: end;
 `;
 

@@ -3,10 +3,10 @@ import styled from 'styled-components';
 
 const Container = styled.div` 
     position: absolute; 
-    padding: 3rem 2rem 0rem 2rem;
+    padding: 2.5rem 2rem 0rem 2rem;
     width: 100vw;
     height: 100vh;
-    font-size: 3em;
+    font-size: 13vw;
     font-weight: 700;
     background-color: #2400FF;
 `;

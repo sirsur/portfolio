@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { SiFigma, SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiAdobephotoshop, SiSass, SiVisualstudiocode } from 'react-icons/si';
 
 const Container = styled.div`
     overflow: scroll;
@@ -16,48 +17,20 @@ const ContainerFlex = styled.span`
     width: fit-content;
     padding: 0 4rem 0 4.4rem;
     position: relative;
-
-    img {
-        height: 3rem;
-    }
 `;
 
 const StackUts = () => {
     return (
         <Container className='exp'>
             <ContainerFlex>
-                <img
-                src={process.env.PUBLIC_URL + '/img/Figma.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/Html.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/CSS.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/JavaScript.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/Node.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/Photoshop.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/Sass.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/VSCode.svg'} 
-                alt="Item"
-                />
+                <SiFigma size={'3em'} />
+                <SiHtml5 size={'3em'} />
+                <SiCss3 size={'3em'} />
+                <SiJavascript size={'3em'} />
+                <SiNodedotjs size={'3em'} />
+                <SiAdobephotoshop size={'3em'} />
+                <SiSass size={'3em'} />
+                <SiVisualstudiocode size={'3em'} />
             </ContainerFlex>
         </Container>
     );

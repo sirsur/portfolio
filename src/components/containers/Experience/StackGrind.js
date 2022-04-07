@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { SiAdobephotoshop, SiHtml5, SiCss3, SiPhp, SiMysql, SiSublimetext } from 'react-icons/si';
 
 const Container = styled.div`
     overflow: scroll;
@@ -16,44 +17,18 @@ const ContainerFlex = styled.span`
     width: fit-content;
     padding: 0 4rem 0 4.4rem;
     position: relative;
-
-    img {
-        height: 3rem;
-    }
 `;
 
 const StackGrind = () => {
     return (
         <Container className='exp'>
             <ContainerFlex>
-                <img
-                src={process.env.PUBLIC_URL + '/img/Figma.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/Html.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/CSS.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/PHP.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/MySQL.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/Sublime.svg'} 
-                alt="Item"
-                />
-                <img
-                src={process.env.PUBLIC_URL + '/img/Photoshop.svg'} 
-                alt="Item"
-                />
+                <SiAdobephotoshop size={'3em'} />
+                <SiHtml5 size={'3em'} />
+                <SiCss3 size={'3em'} />
+                <SiPhp size={'3em'} />
+                <SiMysql size={'3em'} />
+                <SiSublimetext size={'3em'} />
             </ContainerFlex>
         </Container>
     );

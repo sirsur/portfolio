@@ -8,7 +8,7 @@ import Links from './containers/Main/Links';
 import Footer from './containers/Main/Footer';
 
 const Container = styled.div` 
-    padding: calc(3rem + 2vw) calc(2rem + 2vw) calc(1.5rem + 2vw) calc(2rem + 2vw);
+    padding: calc(3rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw);
     background-color: #000000;
 `;
 

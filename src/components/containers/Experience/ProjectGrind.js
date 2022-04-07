@@ -5,8 +5,8 @@ import StackGrind from './../Experience/StackGrind';
 
 const Container = styled.div`
     border-radius: 1rem;
-    padding-block-end: 3rem;
-    padding-block-start: 3rem;
+    padding-block-end: 2rem;
+    padding-block-start: 2rem;
     background-color: #121212;
     background-image: url(${process.env.PUBLIC_URL}/img/GrindVector.svg);
     background-repeat: no-repeat;

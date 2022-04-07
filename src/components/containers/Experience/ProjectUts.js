@@ -5,14 +5,14 @@ import StackUts from './../Experience/StackUts';
 
 const Container = styled.div`
     border-radius: 1rem;
+    padding-block-end: 2rem;
+    padding-block-start: 2rem;
+    margin-top: 2rem;
     background-color: #121212;
     background-image: url(${process.env.PUBLIC_URL}/img/UtsVector.svg);
     background-repeat: no-repeat;
     background-position: 40% 40%;
     background-size: 70rem;
-    padding-block-end: 3rem;
-    padding-block-start: 3rem;
-    margin-top: 2rem;
 
     h1 {
         margin: 0 0 1rem 0;

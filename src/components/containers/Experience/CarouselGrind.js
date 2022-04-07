@@ -17,7 +17,6 @@ const ContainerFlex = styled.span`
     position: relative;
 
     img {
-        height: 20rem;
         border-radius: 1rem;
     }
 `;

@@ -12,7 +12,7 @@ const ContainerFlex = styled.span`
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    padding: 0 4rem 0 4.4rem;
+    padding: 0 3.7rem 0 4.7rem;
     width: fit-content;
     position: relative;
 

@@ -32,19 +32,19 @@ const Links = () => {
         <Container id='links'>
             { Title("03", "LINKS") }
             <Link>
-                <img src={process.env.PUBLIC_URL + '/img/Telegram.svg'} alt='Telegram' height='40vh' />
+                <img src={process.env.PUBLIC_URL + '/img/Telegram.svg'} alt='Telegram' height='35vh' />
                 <a href='https:\\t.me/de4nny'>@de4nny</a>
             </Link>
             <Link>
-                <img src={process.env.PUBLIC_URL + '/img/Github.svg'} alt='Github' height='40vh' />
+                <img src={process.env.PUBLIC_URL + '/img/Github.svg'} alt='Github' height='35vh' />
                 <a href='https:\\github.com/sirsur'>@sirsur</a>
             </Link>
             <Link>
-                <img src={process.env.PUBLIC_URL + '/img/Instagram.svg'} alt='Instagram' height='40vh' />
+                <img src={process.env.PUBLIC_URL + '/img/Instagram.svg'} alt='Instagram' height='35vh' />
                 <a href='https:\\instagram.com/ynnaedgnikcuf'>@ynnaedgnikcuf</a>
             </Link>
             <Link>
-                <img src={process.env.PUBLIC_URL + '/img/Mail.svg'} alt='Mail' height='40vh' />
+                <img src={process.env.PUBLIC_URL + '/img/Mail.svg'} alt='Mail' height='35vh' />
                 <p style={{marginTop: '-0.5rem'}}>casimowa.c2001<br />@gmail.com</p>
             </Link>
         </Container>

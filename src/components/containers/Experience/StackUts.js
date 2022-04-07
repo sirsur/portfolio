@@ -15,7 +15,7 @@ const ContainerFlex = styled.span`
     flex-direction: row;
     gap: 2rem;
     width: fit-content;
-    padding: 0 4rem 0 4.4rem;
+    padding: 0 3.7rem 0 4.7rem;
     position: relative;
 `;
 
@@ -23,14 +23,14 @@ const StackUts = () => {
     return (
         <Container className='exp'>
             <ContainerFlex>
-                <SiFigma size={'3em'} />
-                <SiHtml5 size={'3em'} />
-                <SiCss3 size={'3em'} />
-                <SiJavascript size={'3em'} />
-                <SiNodedotjs size={'3em'} />
-                <SiAdobephotoshop size={'3em'} />
-                <SiSass size={'3em'} />
-                <SiVisualstudiocode size={'3em'} />
+                <SiFigma size={'2.5em'} />
+                <SiHtml5 size={'2.5em'} />
+                <SiCss3 size={'2.5em'} />
+                <SiJavascript size={'2.5em'} />
+                <SiNodedotjs size={'2.5em'} />
+                <SiAdobephotoshop size={'2.5em'} />
+                <SiSass size={'2.5em'} />
+                <SiVisualstudiocode size={'2.5em'} />
             </ContainerFlex>
         </Container>
     );

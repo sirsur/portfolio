@@ -25,10 +25,10 @@ const CarouselGrind = () => {
     return (
         <Container className='exp'>
             <ContainerFlex>
-                <picture>
-                    <source srcset={process.env.PUBLIC_URL + '/img/Grind1.svg 1x'} />
-                    <img src={process.env.PUBLIC_URL + '/img/Grind1.svg'} alt="First slide" />
-                </picture>
+                <img 
+                src={process.env.PUBLIC_URL + '/img/Grind1.webp'} 
+                alt="First slide" 
+                />
                 <img
                 src={process.env.PUBLIC_URL + '/img/Grind2.svg'} 
                 alt="Second slide"

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Container = styled.div` 
     position: absolute; 
-    padding: 3.5rem 2rem 5rem 2rem;
+    padding: 3rem 2rem 0rem 2rem;
     width: 100vw;
     height: 100vh;
     font-size: 3em;

@@ -11,7 +11,7 @@ const Container = styled.div`
 const ContainerFlex = styled.span`
     display: flex;
     flex-direction: row;
-    gap: 4rem;
+    gap: 2rem;
     padding: 0 4rem 0 4.4rem;
     width: fit-content;
     position: relative;
@@ -25,10 +25,10 @@ const CarouselGrind = () => {
     return (
         <Container className='exp'>
             <ContainerFlex>
-                <img
-                src={process.env.PUBLIC_URL + '/img/Grind1.svg'} 
-                alt="First slide"
-                />
+                <picture>
+                    <source srcset={process.env.PUBLIC_URL + '/img/Grind1.svg 1x'} />
+                    <img src={process.env.PUBLIC_URL + '/img/Grind1.svg'} alt="First slide" />
+                </picture>
                 <img
                 src={process.env.PUBLIC_URL + '/img/Grind2.svg'} 
                 alt="Second slide"

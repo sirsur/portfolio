@@ -31,12 +31,8 @@ const ProjectGrind = () => {
     return (
         <Container>
             <h1>GRIND</h1>
-            <p>
-                project to find a direction and a university for applicants
-                <br />
-                <br />
-                (currently being done on a different stack)
-            </p>
+            <p>project to find a direction and a university for applicants</p>
+            <p style={{ fontWeight: '700' }}>(currently being done on a different stack)</p>
             <CarouselGrind />
             <StackGrind />
         </Container>

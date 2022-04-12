@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const Container = styled.div` 
     z-index: 1;
     position: fixed; 
+    overflow: hidden;
     padding: 2.5rem 2rem 0rem 2rem;
     width: 100vw;
     height: 100vh;

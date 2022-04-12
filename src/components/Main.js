@@ -6,22 +6,26 @@ import Skills from './containers/Main/Skills';
 import Experience from './containers/Main/Experience';
 import Links from './containers/Main/Links';
 import Footer from './containers/Main/Footer';
+import Preloader from './Preloader';
 
 const Container = styled.div` 
+    z-index: 0;
     padding: calc(3rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw);
-    background-color: #000000;
 `;
 
 const Main = () => {
     return (
-        <Container id='top'>
-            <Header />
-            <AboutMe />
-            <Skills />
-            <Experience />
-            <Links />
-            <Footer />
-        </Container>
+        <>
+            <Preloader />
+            <Container id='top'>
+                <Header />
+                <AboutMe />
+                <Skills />
+                <Experience />
+                <Links />
+                <Footer />
+            </Container>
+        </>
     )
 };
 

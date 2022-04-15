@@ -58,3 +58,13 @@ html, body {
         opacity: 0;
     }
 }
+
+@keyframes main-fixed {
+    0% {
+        position: fixed;
+    }
+
+    100% {
+        position: relative;
+    }
+}

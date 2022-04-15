@@ -11,6 +11,7 @@ import Preloader from './Preloader';
 const Container = styled.div` 
     z-index: 0;
     padding: calc(3rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw);
+    animation: main-fixed 25s;
 `;
 
 const Main = () => {

@@ -3,11 +3,10 @@ import styled from 'styled-components';
 
 const Container = styled.div` 
     z-index: 1;
-    position: fixed; 
-    overflow: hidden;
+    position: fixed;
     padding: 2.5rem 2rem 0rem 2rem;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     font-size: 13vw;
     font-weight: 700;
     background-color: #2400FF;

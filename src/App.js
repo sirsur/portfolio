@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import Preloader from './components/Preloader';
+import React from 'react';
 import Main from './components/Main';
 
 const App = () => {

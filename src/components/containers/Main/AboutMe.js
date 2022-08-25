@@ -37,7 +37,7 @@ const Text = `
     i’m frontend developer 
     from saint-petersburg, russia. 
     currently junior frontend developer & 
-    3rd year student. i have 4 years 
+    4rd year student. i have 2 years 
     experience in design & web development 
     and love what i do.
 `;

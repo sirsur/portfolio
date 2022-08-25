@@ -27,27 +27,27 @@ const CarouselUts = () => {
         <Container className='exp'>
             <ContainerFlex>
                 <picture>
-                    <source srcset={process.env.PUBLIC_URL + '/img/uts1.webp 4.5x'} />
+                    <source srcSet={process.env.PUBLIC_URL + '/img/uts1.webp 4.5x'} />
                     <img src={process.env.PUBLIC_URL + '/img/uts1.webp'} alt="First screen" />
                 </picture>
                 <picture>
-                    <source srcset={process.env.PUBLIC_URL + '/img/uts2.webp 4.5x'} />
+                    <source srcSet={process.env.PUBLIC_URL + '/img/uts2.webp 4.5x'} />
                     <img src={process.env.PUBLIC_URL + '/img/uts2.webp'} alt="Second screen" />
                 </picture>
                 <picture>
-                    <source srcset={process.env.PUBLIC_URL + '/img/uts3.webp 4.5x'} />
+                    <source srcSet={process.env.PUBLIC_URL + '/img/uts3.webp 4.5x'} />
                     <img src={process.env.PUBLIC_URL + '/img/uts3.webp'} alt="Third screen" />
                 </picture>
                 <picture>
-                    <source srcset={process.env.PUBLIC_URL + '/img/uts4.webp 4.5x'} />
+                    <source srcSet={process.env.PUBLIC_URL + '/img/uts4.webp 4.5x'} />
                     <img src={process.env.PUBLIC_URL + '/img/uts4.webp'} alt="Fourth screen" />
                 </picture>
                 <picture>
-                    <source srcset={process.env.PUBLIC_URL + '/img/uts5.webp 4.5x'} />
+                    <source srcSet={process.env.PUBLIC_URL + '/img/uts5.webp 4.5x'} />
                     <img src={process.env.PUBLIC_URL + '/img/uts5.webp'} alt="Fifth screen" />
                 </picture>
                 <picture>
-                    <source srcset={process.env.PUBLIC_URL + '/img/uts6.webp 4.5x'} />
+                    <source srcSet={process.env.PUBLIC_URL + '/img/uts6.webp 4.5x'} />
                     <img src={process.env.PUBLIC_URL + '/img/uts6.webp'} alt="Sixth screen" />
                 </picture>
             </ContainerFlex>

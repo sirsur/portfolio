@@ -26,11 +26,11 @@ const CarouselGrind = () => {
         <Container className='exp'>
             <ContainerFlex>
                 <picture>
-                    <source srcset={process.env.PUBLIC_URL + '/img/Grind1.webp 4.5x'} />
+                    <source srcSet={process.env.PUBLIC_URL + '/img/Grind1.webp 4.5x'} />
                     <img src={process.env.PUBLIC_URL + '/img/Grind1.webp'} alt="Preloader" />
                 </picture>
                 <picture>
-                    <source srcset={process.env.PUBLIC_URL + '/img/Grind2.webp 4.5x'} />
+                    <source srcSet={process.env.PUBLIC_URL + '/img/Grind2.webp 4.5x'} />
                     <img src={process.env.PUBLIC_URL + '/img/Grind2.webp'} alt="First screen" />
                 </picture>
             </ContainerFlex>

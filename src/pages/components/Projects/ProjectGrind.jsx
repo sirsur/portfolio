@@ -1,18 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import CarouselUts from './CarouselUts';
-import StackUts from './../Experience/StackUts';
+import CarouselGrind from './CarouselGrind'
+import StackGrind from './StackGrind';
 
 const Container = styled.div`
     border-radius: 1rem;
     padding-block-end: 2rem;
     padding-block-start: 2rem;
-    margin-top: 2rem;
     background-color: #121212;
-    background-image: url(${process.env.PUBLIC_URL}/img/UtsVector.svg);
+    background-image: url(${process.env.PUBLIC_URL}/img/GrindVector.svg);
     background-repeat: no-repeat;
-    background-position: 40% 40%;
-    background-size: 70rem;
+    background-position: 0% 30%;
+    background-size: 30rem;
 
     h1 {
         margin: 0 0 1rem 0;
@@ -26,17 +25,18 @@ const Container = styled.div`
         margin-top: 0;
         font-size: calc(1.5em + 1vw);
     }
-`;
+`
 
-const ProjectUts = () => {
+const ProjectGrind = () => {
     return (
         <Container>
-            <h1>UTS</h1>
-            <p>website for our family company based in surgut, russia</p>
-            <CarouselUts />
-            <StackUts />
+            <h1>GRIND</h1>
+            <p>project to find a direction and a university for applicants</p>
+            <p style={{ fontWeight: '700' }}>(currently being done on a different stack)</p>
+            <CarouselGrind />
+            <StackGrind />
         </Container>
     );
 };
 
-export default ProjectUts;
+export default ProjectGrind;

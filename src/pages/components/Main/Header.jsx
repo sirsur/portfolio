@@ -26,8 +26,9 @@ const Header = () => {
     return (
         <Container>
             <Link href='#skills'>01 SKILLS</Link>
-            <Link href='#exp'>02 EXPERIENCE</Link>
-            <Link href='#links'>03 LINKS</Link>
+            <Link href='#projects'>02 PROJECTS</Link>
+            <Link href='#exp'>03 EXPERIENCE</Link>
+            <Link href='#links'>04 LINKS</Link>
         </Container>
     );
 };

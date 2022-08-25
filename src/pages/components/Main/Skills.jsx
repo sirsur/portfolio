@@ -11,17 +11,18 @@ const Code = `
     INSERT INTO 
         People (name, age) 
     VALUES 
-        ('Kasimova Karina', 20); 
+        ('Kasimova Karina', 21); 
 
     INSERT INTO 
         Skills (idPeople, name) 
     VALUES 
-        (1, 'HTML'), 
-        (1, 'CSS'), 
-        (1, 'SCSS'), 
-        (1, 'JavaScript'), 
-        (1, 'Node'), 
-        (1, 'React'), 
+        (1, 'HTML/CSS'), 
+        (1, 'JS/TS'), 
+        (1, 'SASS/SCSS'), 
+        (1, 'MERN'), 
+        (1, 'JSON/XML'), 
+        (1, 'REST/FETCH'), 
+        (1, 'SQL'), 
         (1, 'UI/UX'); 
 
     INSERT INTO 
@@ -29,7 +30,9 @@ const Code = `
     VALUES 
         (1, 'Visual Studio Code'), 
         (1, 'Figma'), 
-        (1, 'Xcode'), 
+        (1, 'Postman'), 
+        (1, 'Jira'), 
+        (1, 'MS/Postgres/MY/Mongo'), 
         (1, 'Adobe Photoshop'), 
         (1, 'MacBook Pro 2017'); 
 `;

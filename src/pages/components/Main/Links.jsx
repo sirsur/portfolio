@@ -27,10 +27,14 @@ const Link = styled.div`
     }
 `;
 
+/*
+TODO: make adaptive icons near links
+*/
+
 const Links = () => {
     return (
         <Container id='links'>
-            { Title("03", "LINKS") }
+            { Title("04", "LINKS") }
             <Link>
                 <img src={process.env.PUBLIC_URL + '/img/Telegram.svg'} alt='Telegram' height='35vh' />
                 <a href='https:\\t.me/de4nny'>@de4nny</a>

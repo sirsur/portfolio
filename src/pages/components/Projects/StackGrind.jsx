@@ -19,6 +19,10 @@ const ContainerFlex = styled.span`
     position: relative;
 `;
 
+/*
+TODO: make icons with new stack and also adaptive
+*/
+
 const StackGrind = () => {
     return (
         <Container className='exp'>

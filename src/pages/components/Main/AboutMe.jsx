@@ -31,6 +31,11 @@ const Description = styled.span`
         background: #FFFFFF;
         animation: cursor-blink 1s steps(2) infinite;
     }
+
+    a {
+        color: #A1A1A1;
+        text-decoration: none;
+    }
 `;
 
 const Text = `
@@ -39,7 +44,7 @@ const Text = `
     currently junior frontend developer & 
     4rd year student. i have 2 years 
     experience in design & web development 
-    and love what i do.
+    and love what i do. 
 `;
 
 const AboutMe = () => {
@@ -48,7 +53,7 @@ const AboutMe = () => {
             <Date>16 march 2022, 17:45</Date>
             <Title>ABOUT ME</Title>
             <Description>
-                {Text}
+                <span>{Text}also, u can download my cv <a href='https://drive.google.com/file/d/1JavwMkWwI8XatI_lJl3k04G9lx4GLj8h/view?usp=sharing'>here</a>.</span>
             </Description>
         </Container>
     );

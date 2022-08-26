@@ -29,7 +29,6 @@ const Link = styled.div`
 
 /*
 TODO - make adaptive icons near links
-     - add cv link
 */
 
 const Links = () => {

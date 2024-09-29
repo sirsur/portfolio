@@ -9,12 +9,12 @@ const Container = styled.header`
 
 const Link = styled.a`
     font-size: 2.5em;
-    color: #A1A1A1;
+    color: #a1a1a1;
     text-decoration: none;
     margin-bottom: 0.5rem;
 
     &:hover {
-        color: #FFFFFF;
+        color: #ffffff;
     }
 
     @media (max-width: 900px) {
@@ -25,10 +25,11 @@ const Link = styled.a`
 const Header = () => {
     return (
         <Container>
-            <Link href='#skills'>01 SKILLS</Link>
-            <Link href='#projects'>02 PROJECTS</Link>
-            <Link href='#exp'>03 EXPERIENCE</Link>
-            <Link href='#links'>04 LINKS</Link>
+            <Link href='#edu'>01 EDUCATION</Link>
+            <Link href='#skills'>02 SKILLS</Link>
+            <Link href='#projects'>03 PROJECTS</Link>
+            <Link href='#exp'>04 EXPERIENCE</Link>
+            <Link href='#links'>05 LINKS</Link>
         </Container>
     );
 };

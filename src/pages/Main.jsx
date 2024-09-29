@@ -8,10 +8,12 @@ import Projects from './components/Main/Projects';
 import Links from './components/Main/Links';
 import Footer from './components/Main/Footer';
 import Preloader from './Preloader';
+import Education from './components/Main/Education';
 
-const Container = styled.div` 
+const Container = styled.div`
     z-index: 0;
-    padding: calc(3rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw);
+    padding: calc(3rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw)
+        calc(1.5rem + 2vw);
     animation: main-fixed 23.5s;
 `;
 
@@ -22,6 +24,7 @@ const Main = () => {
             <Container id='top'>
                 <Header />
                 <AboutMe />
+                <Education />
                 <Skills />
                 <Projects />
                 <Experience />
@@ -29,7 +32,7 @@ const Main = () => {
                 <Footer />
             </Container>
         </>
-    )
+    );
 };
 
 export default Main;

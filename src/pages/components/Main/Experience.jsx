@@ -1,18 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
 import Title from './Title';
+import ExpUts from '../Experience/ExpUts';
+import ExpUsetech from '../Experience/ExpUsetech';
+import ExpSigma from '../Experience/ExpSigma';
 
-const Container = styled.section`
+const Container = styled.section``;
+const ContainerFlex = styled.span`
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 `;
-
-/*
-TODO - add description about experience
-*/
 
 const Experience = () => {
     return (
         <Container id='exp'>
-            { Title("03", "EXP") }
+            {Title('04', 'EXP')}
+            <ContainerFlex>
+                <ExpUts />
+                <ExpUsetech />
+                <ExpSigma />
+            </ContainerFlex>
         </Container>
     );
 };

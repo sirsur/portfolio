@@ -4,8 +4,7 @@ import { paraisoDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import Title from './Title';
 
-const Container = styled.section`
-`;
+const Container = styled.section``;
 
 const Code = `
     INSERT INTO 
@@ -40,13 +39,18 @@ const Code = `
 const Skills = () => {
     return (
         <Container id='skills'>
-            { Title("01", "SKILLS") }
-            <SyntaxHighlighter 
-                language = "sql" 
-                style = { paraisoDark }
-                customStyle = {{ backgroundColor: '#121212', borderRadius: '30px', fontSize: 'calc(0.5vw + 1.5vmin)', padding: 'calc(0.5rem + 1vw) 0 calc(1.5rem + 1vw) 0' }}
-            > 
-                { Code }
+            {Title('02', 'SKILLS')}
+            <SyntaxHighlighter
+                language='sql'
+                style={paraisoDark}
+                customStyle={{
+                    backgroundColor: '#121212',
+                    borderRadius: '30px',
+                    fontSize: 'calc(0.5vw + 1.5vmin)',
+                    padding: 'calc(0.5rem + 1vw) 0 calc(1.5rem + 1vw) 0',
+                }}
+            >
+                {Code}
             </SyntaxHighlighter>
         </Container>
     );

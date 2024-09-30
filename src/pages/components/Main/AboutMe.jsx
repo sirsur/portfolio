@@ -1,9 +1,37 @@
 import React from 'react';
 import styled from 'styled-components';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+const settings = {
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+};
 
 const Container = styled.section`
     margin-top: 3rem;
     opacity: 87%;
+
+    img {
+        border-radius: 1rem;
+    }
+
+    .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slick-dots li button:before {
+        color: #ffffff;
+    }
 `;
 
 const Date = styled.p`
@@ -17,6 +45,7 @@ const Title = styled.h1`
 `;
 
 const Description = styled.span`
+    margin-bottom: 2rem;
     font-size: calc(1.1em + 2vw);
     display: flex;
     flex-direction: column;
@@ -29,6 +58,7 @@ const Description = styled.span`
 `;
 
 const DescriptionAfter = styled.span`
+    margin-top: 4rem;
     font-size: calc(1.1em + 2vw);
     display: flex;
     flex-direction: column;
@@ -50,13 +80,6 @@ const DescriptionAfter = styled.span`
     }
 `;
 
-const Photos = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 1rem 0;
-`;
-
 const Text = `
     i’m frontend developer 
     from surgut, russia. 
@@ -71,17 +94,15 @@ const SecondText = `
     and with high quality. Sociable, not conflicted, 
     I adequately perceive criticism and am fully 
     responsible for introspection and correction of 
-    shortcomings, if any. I appreciate the development 
-    and provision of opportunities for additional earnings 
-    and career growth. A calm and reasonably reasonable 
-    person. I respect the management and personal space. 
-    I had an exceptionally positive experience and good 
-    relations with my superiors.
+    shortcomings, if any. A calm and reasonably reasonable 
+    person. I respect the management and personal space.
 `;
 
 const ThirdText = `
     I will be glad to cooperate!
 `;
+
+const numbers = [1, 2, 3, 4, 5, 6];
 
 const AboutMe = () => {
     return (
@@ -97,26 +118,27 @@ const AboutMe = () => {
                     .
                 </span>
             </Description>
-            <Photos>
-                <picture>
-                    <source
-                        srcSet={process.env.PUBLIC_URL + '/img/Me1.svg 2.5x'}
-                    />
-                    <img
-                        src={process.env.PUBLIC_URL + '/img/Me1.svg'}
-                        alt='First screen'
-                    />
-                </picture>
-                <picture>
-                    <source
-                        srcSet={process.env.PUBLIC_URL + '/img/Me2.svg 2.5x'}
-                    />
-                    <img
-                        src={process.env.PUBLIC_URL + '/img/Me2.svg'}
-                        alt='First screen'
-                    />
-                </picture>
-            </Photos>
+            <Slider {...settings}>
+                {numbers.map((number) => (
+                    <div key={number}>
+                        <picture>
+                            <source
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 3.5x`
+                                }
+                            />
+                            <img
+                                src={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp`
+                                }
+                                alt={`Bio ${number}`}
+                            />
+                        </picture>
+                    </div>
+                ))}
+            </Slider>
             <DescriptionAfter>
                 {SecondText}
                 <br />

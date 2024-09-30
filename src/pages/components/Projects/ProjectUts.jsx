@@ -21,7 +21,7 @@ const Container = styled.div`
         font-weight: 900;
     }
 
-    p { 
+    p {
         padding: 0 calc(2rem + 1vw) 0 calc(2rem + 1vw);
         margin-top: 0;
         font-size: calc(1.5em + 1vw);
@@ -31,7 +31,7 @@ const Container = styled.div`
 const ProjectUts = () => {
     return (
         <Container>
-            <h1>UTS</h1>
+            <h1>UTS (2021)</h1>
             <p>website for our family company based in surgut, russia</p>
             <CarouselUts />
             <StackUts />

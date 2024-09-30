@@ -1,6 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SiAdobephotoshop, SiHtml5, SiCss3, SiPhp, SiMysql, SiSublimetext } from 'react-icons/si';
+import {
+    SiAdobephotoshop,
+    SiHtml5,
+    SiCss3,
+    SiFigma,
+    SiStyledcomponents,
+    SiNodedotjs,
+    SiMongodb,
+    SiVisualstudiocode,
+} from 'react-icons/si';
+import { BiLogoTypescript } from 'react-icons/bi';
+import { DiReact } from 'react-icons/di';
 
 const Container = styled.div`
     overflow: scroll;
@@ -28,11 +39,15 @@ const StackGrind = () => {
         <Container className='exp'>
             <ContainerFlex>
                 <SiAdobephotoshop size={'2.5em'} />
+                <SiFigma size={'2.5em'} />
                 <SiHtml5 size={'2.5em'} />
                 <SiCss3 size={'2.5em'} />
-                <SiPhp size={'2.5em'} />
-                <SiMysql size={'2.5em'} />
-                <SiSublimetext size={'2.5em'} />
+                <SiStyledcomponents size={'2.5em'} />
+                <DiReact size={'2.5em'} />
+                <BiLogoTypescript size={'2.5em'} />
+                <SiNodedotjs size={'2.5em'} />
+                <SiMongodb size={'2.5em'} />
+                <SiVisualstudiocode size={'2.5em'} />
             </ContainerFlex>
         </Container>
     );

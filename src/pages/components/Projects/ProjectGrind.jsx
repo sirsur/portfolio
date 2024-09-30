@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import CarouselGrind from './CarouselGrind'
+import CarouselGrind from './CarouselGrind';
 import StackGrind from './StackGrind';
 
 const Container = styled.div`
@@ -20,19 +20,18 @@ const Container = styled.div`
         font-weight: 900;
     }
 
-    p { 
+    p {
         padding: 0 calc(2rem + 1vw) 0 calc(2rem + 1vw);
         margin-top: 0;
         font-size: calc(1.5em + 1vw);
     }
-`
+`;
 
 const ProjectGrind = () => {
     return (
         <Container>
-            <h1>GRIND</h1>
+            <h1>GRIND (2022)</h1>
             <p>project to find a direction and a university for applicants</p>
-            <p style={{ fontWeight: '700' }}>(currently being done on a different stack)</p>
             <CarouselGrind />
             <StackGrind />
         </Container>

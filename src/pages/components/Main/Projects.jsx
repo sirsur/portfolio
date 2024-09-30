@@ -9,7 +9,7 @@ const Container = styled.section``;
 const Projects = () => {
     return (
         <Container id='projects'>
-            {Title('03', 'PROJECTS')}
+            {Title('03', 'PROJ')}
             <ProjectGrind />
             <ProjectUts />
         </Container>

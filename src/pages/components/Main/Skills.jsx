@@ -10,17 +10,19 @@ const Code = `
     INSERT INTO 
         People (name, age) 
     VALUES 
-        ('Kasimova Karina', 21); 
+        ('Kasimova Karina', 23); 
 
     INSERT INTO 
         Skills (idPeople, name) 
     VALUES 
         (1, 'HTML/CSS'), 
+        (1, 'REACT/NEXT'), 
         (1, 'JS/TS'), 
-        (1, 'SASS/SCSS'), 
-        (1, 'MERN'), 
-        (1, 'JSON/XML'), 
+        (1, 'SASS/SCSS'),
+        (1, 'JSON/XML/XSD'), 
         (1, 'REST/FETCH'), 
+        (1, 'NODE/EXPRESS/APOLLO'), 
+        (1, 'MS/POSTGRES/MY/MONGO'),
         (1, 'SQL'), 
         (1, 'UI/UX'); 
 
@@ -29,11 +31,10 @@ const Code = `
     VALUES 
         (1, 'Visual Studio Code'), 
         (1, 'Figma'), 
-        (1, 'Postman'), 
-        (1, 'Jira'), 
-        (1, 'MS/Postgres/MY/Mongo'), 
         (1, 'Adobe Photoshop'), 
-        (1, 'MacBook Pro 2017'); 
+        (1, 'Postman'), 
+        (1, 'Jira/Conf'),  
+        (1, 'MacBook Pro 2021'); 
 `;
 
 const Skills = () => {
@@ -46,7 +47,7 @@ const Skills = () => {
                 customStyle={{
                     backgroundColor: '#121212',
                     borderRadius: '30px',
-                    fontSize: 'calc(0.5vw + 1.5vmin)',
+                    fontSize: '0.9rem',
                     padding: 'calc(0.5rem + 1vw) 0 calc(1.5rem + 1vw) 0',
                 }}
             >

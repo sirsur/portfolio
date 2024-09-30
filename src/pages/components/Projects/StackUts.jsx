@@ -1,6 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SiFigma, SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiAdobephotoshop, SiSass, SiVisualstudiocode } from 'react-icons/si';
+import {
+    SiFigma,
+    SiHtml5,
+    SiCss3,
+    SiJavascript,
+    SiNodedotjs,
+    SiAdobephotoshop,
+    SiSass,
+    SiVisualstudiocode,
+} from 'react-icons/si';
 
 const Container = styled.div`
     overflow: scroll;
@@ -23,12 +32,12 @@ const StackUts = () => {
     return (
         <Container className='exp'>
             <ContainerFlex>
+                <SiAdobephotoshop size={'2.5em'} />
                 <SiFigma size={'2.5em'} />
                 <SiHtml5 size={'2.5em'} />
                 <SiCss3 size={'2.5em'} />
                 <SiJavascript size={'2.5em'} />
                 <SiNodedotjs size={'2.5em'} />
-                <SiAdobephotoshop size={'2.5em'} />
                 <SiSass size={'2.5em'} />
                 <SiVisualstudiocode size={'2.5em'} />
             </ContainerFlex>

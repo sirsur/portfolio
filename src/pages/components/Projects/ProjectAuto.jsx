@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import CarouselGrind from './CarouselGrind';
-import StackGrind from './StackGrind';
+import CarouselAuto from './CarouselAuto';
+import StackAuto from './StackAuto';
 
 const Container = styled.div`
     margin-top: 2rem;
@@ -9,10 +9,10 @@ const Container = styled.div`
     padding-block-end: 2rem;
     padding-block-start: 2rem;
     background-color: #121212;
-    background-image: url(${process.env.PUBLIC_URL}/img/GrindVector.svg);
+    background-image: url(${process.env.PUBLIC_URL}/img/UtsVector.svg);
     background-repeat: no-repeat;
-    background-position: 0% 30%;
-    background-size: 30rem;
+    background-position: 10% 40%;
+    background-size: 70rem;
 
     h1 {
         margin: 0 0 1rem 0;
@@ -28,15 +28,15 @@ const Container = styled.div`
     }
 `;
 
-const ProjectGrind = () => {
+const ProjectAuto = () => {
     return (
         <Container>
-            <h1>GRIND (2022)</h1>
-            <p>project to find a direction and a university for applicants</p>
-            <CarouselGrind />
-            <StackGrind />
+            <h1>AUTO SELECTION (2022)</h1>
+            <p>website that helps you sell car profitably</p>
+            <CarouselAuto />
+            <StackAuto />
         </Container>
     );
 };
 
-export default ProjectGrind;
+export default ProjectAuto;

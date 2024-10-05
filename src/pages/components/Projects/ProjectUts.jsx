@@ -7,7 +7,6 @@ const Container = styled.div`
     border-radius: 1rem;
     padding-block-end: 2rem;
     padding-block-start: 2rem;
-    margin-top: 2rem;
     background-color: #121212;
     background-image: url(${process.env.PUBLIC_URL}/img/UtsVector.svg);
     background-repeat: no-repeat;

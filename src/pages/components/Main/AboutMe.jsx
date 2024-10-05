@@ -112,7 +112,7 @@ const AboutMe = () => {
             <Description>
                 <span>
                     {Text}also, u can download my cv{' '}
-                    <a href='https://drive.google.com/file/d/1JavwMkWwI8XatI_lJl3k04G9lx4GLj8h/view?usp=sharing'>
+                    <a href='https://drive.google.com/file/d/16cVohqWMiHPuWSJHuI-sUinH4G-GjEC-/view?usp=share_link'>
                         here
                     </a>
                     .
@@ -123,9 +123,31 @@ const AboutMe = () => {
                     <div key={number}>
                         <picture>
                             <source
+                                media='(min-width: 400px)'
                                 srcSet={
                                     process.env.PUBLIC_URL +
                                     `/img/Pic${number}.webp 3.5x`
+                                }
+                            />
+                            <source
+                                media='(max-width: 399px) and (min-width: 355px)'
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 4x`
+                                }
+                            />
+                            <source
+                                media='(max-width: 354px) and (min-width: 325px)'
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 4.5x`
+                                }
+                            />
+                            <source
+                                media='(max-width: 324px)'
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 5x`
                                 }
                             />
                             <img

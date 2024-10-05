@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Container = styled.div`
     z-index: 1;
     position: fixed;
-    padding: 2.5vdh 2rem 0vdh 2rem;
+    padding: 5dvh 2rem 0dvh 2rem;
     width: 100vw;
     height: 100%;
     font-size: 13vw;

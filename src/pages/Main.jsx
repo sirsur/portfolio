@@ -12,8 +12,7 @@ import Education from './components/Main/Education';
 
 const Container = styled.div`
     z-index: 0;
-    padding: calc(3rem + 2vw) calc(1.5rem + 2vw) calc(1.5rem + 2vw)
-        calc(1.5rem + 2vw);
+    padding: 10dvh calc(1.5rem + 2vw) 5dvh calc(1.5rem + 2vw);
     animation: main-fixed 23.5s;
 `;
 

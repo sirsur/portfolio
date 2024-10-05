@@ -47,7 +47,7 @@ const Skills = () => {
                 customStyle={{
                     backgroundColor: '#121212',
                     borderRadius: '30px',
-                    fontSize: '0.9em',
+                    fontSize: '0.6em',
                     padding: 'calc(0.5rem + 1vw) 0 calc(1.5rem + 1vw) 0',
                 }}
             >

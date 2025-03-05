@@ -8,16 +8,20 @@ const Container = styled.div`
     right: 2.4rem;
 `;
 
-const ContainerFlex = styled.span`
+const ContainerFlex = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 2rem;
     padding: 0 3.7rem 0 4.7rem;
     width: fit-content;
     position: relative;
 
+    @media (min-width: 1024px) {
+        padding: 0 62% 0 4.7rem;
+    }
+
     img {
-        height: 20rem;
         border-radius: 1rem;
     }
 `;
@@ -27,28 +31,88 @@ const CarouselUts = () => {
         <Container className='exp'>
             <ContainerFlex>
                 <picture>
-                    <source srcSet={process.env.PUBLIC_URL + '/img/uts1.webp 4.5x'} />
-                    <img src={process.env.PUBLIC_URL + '/img/uts1.webp'} alt="First screen" />
+                    <source
+                        media='(min-width: 1025px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts1.webp 4.1x'}
+                    />
+                    <source
+                        media='(max-width: 1024px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts1.webp 6x'}
+                    />
+                    <img
+                        src={process.env.PUBLIC_URL + '/img/uts1.webp'}
+                        alt='First screen'
+                    />
                 </picture>
                 <picture>
-                    <source srcSet={process.env.PUBLIC_URL + '/img/uts2.webp 4.5x'} />
-                    <img src={process.env.PUBLIC_URL + '/img/uts2.webp'} alt="Second screen" />
+                    <source
+                        media='(min-width: 1025px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts2.webp 3x'}
+                    />
+                    <source
+                        media='(max-width: 1024px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts2.webp 6x'}
+                    />
+                    <img
+                        src={process.env.PUBLIC_URL + '/img/uts2.webp'}
+                        alt='Second screen'
+                    />
                 </picture>
                 <picture>
-                    <source srcSet={process.env.PUBLIC_URL + '/img/uts3.webp 4.5x'} />
-                    <img src={process.env.PUBLIC_URL + '/img/uts3.webp'} alt="Third screen" />
+                    <source
+                        media='(min-width: 1025px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts3.webp 3x'}
+                    />
+                    <source
+                        media='(max-width: 1024px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts3.webp 6x'}
+                    />
+                    <img
+                        src={process.env.PUBLIC_URL + '/img/uts3.webp'}
+                        alt='Third screen'
+                    />
                 </picture>
                 <picture>
-                    <source srcSet={process.env.PUBLIC_URL + '/img/uts4.webp 4.5x'} />
-                    <img src={process.env.PUBLIC_URL + '/img/uts4.webp'} alt="Fourth screen" />
+                    <source
+                        media='(min-width: 1025px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts4.webp 3x'}
+                    />
+                    <source
+                        media='(max-width: 1024px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts4.webp 6x'}
+                    />
+                    <img
+                        src={process.env.PUBLIC_URL + '/img/uts4.webp'}
+                        alt='Fourth screen'
+                    />
                 </picture>
                 <picture>
-                    <source srcSet={process.env.PUBLIC_URL + '/img/uts5.webp 4.5x'} />
-                    <img src={process.env.PUBLIC_URL + '/img/uts5.webp'} alt="Fifth screen" />
+                    <source
+                        media='(min-width: 1025px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts5.webp 3x'}
+                    />
+                    <source
+                        media='(max-width: 1024px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts5.webp 6x'}
+                    />
+                    <img
+                        src={process.env.PUBLIC_URL + '/img/uts5.webp'}
+                        alt='Fifth screen'
+                    />
                 </picture>
                 <picture>
-                    <source srcSet={process.env.PUBLIC_URL + '/img/uts6.webp 4.5x'} />
-                    <img src={process.env.PUBLIC_URL + '/img/uts6.webp'} alt="Sixth screen" />
+                    <source
+                        media='(min-width: 1025px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts6.webp 3x'}
+                    />
+                    <source
+                        media='(max-width: 1024px)'
+                        srcSet={process.env.PUBLIC_URL + '/img/uts6.webp 6x'}
+                    />
+                    <img
+                        src={process.env.PUBLIC_URL + '/img/uts6.webp'}
+                        alt='Sixth screen'
+                    />
                 </picture>
             </ContainerFlex>
         </Container>

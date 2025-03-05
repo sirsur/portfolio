@@ -19,6 +19,13 @@ const Container = styled.div`
         font-weight: 900;
     }
 
+    h2 {
+        padding: 0 calc(2rem + 1vw) 0 calc(2rem + 1vw);
+        margin-top: 0;
+        font-size: calc(1.5em + 1vw);
+        font-weight: 700;
+    }
+
     p {
         padding: 0 calc(2rem + 1vw) 0 calc(2rem + 1vw);
         margin-top: 0;
@@ -30,7 +37,7 @@ const ExpUts = () => {
     return (
         <Container>
             <h1>UTS</h1>
-            <p style={{ fontWeight: '700' }}>developer (2021-2022)</p>
+            <h2>developer (2021-2022)</h2>
             <p>
                 creation of a website for the company and its support, as well
                 as setting up equipment in the office

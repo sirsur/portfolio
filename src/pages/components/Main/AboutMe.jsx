@@ -16,11 +16,13 @@ const settings = {
 };
 
 const Container = styled.section`
+    grid-row: 2 / 5;
+    grid-column: 1;
     margin-top: 3rem;
     opacity: 87%;
 
     img {
-        border-radius: 1rem;
+        border-radius: 2rem;
     }
 
     .slick-slide {
@@ -31,6 +33,10 @@ const Container = styled.section`
 
     .slick-dots li button:before {
         color: #ffffff;
+    }
+
+    @media (min-width: 1024px) {
+        margin-top: 0;
     }
 `;
 
@@ -123,7 +129,49 @@ const AboutMe = () => {
                     <div key={number}>
                         <picture>
                             <source
-                                media='(min-width: 400px)'
+                                media='(min-width: 1900px)'
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 2x`
+                                }
+                            />
+                            <source
+                                media='(min-width: 1500px) and (max-width: 1899px)'
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 2.5x`
+                                }
+                            />
+                            <source
+                                media='(min-width: 1025px) and (max-width: 1499px)'
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 3.3x`
+                                }
+                            />
+                            <source
+                                media='(min-width: 1000px) and (max-width: 1024px)'
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 2x`
+                                }
+                            />
+                            <source
+                                media='(min-width: 800px) and (max-width: 999px)'
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 2.5x`
+                                }
+                            />
+                            <source
+                                media='(min-width: 600px) and (max-width: 799px)'
+                                srcSet={
+                                    process.env.PUBLIC_URL +
+                                    `/img/Pic${number}.webp 3x`
+                                }
+                            />
+                            <source
+                                media='(min-width: 400px) and (max-width: 599px)'
                                 srcSet={
                                     process.env.PUBLIC_URL +
                                     `/img/Pic${number}.webp 3.5x`

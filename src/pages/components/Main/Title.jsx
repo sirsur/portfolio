@@ -10,13 +10,27 @@ const Component = styled.span`
     justify-content: flex-start;
     margin: calc(3rem + 2vw) 0 calc(1rem + 1vw) 0;
     opacity: 87%;
+
+    @media (min-width: 1024px) {
+        margin-top: 0;
+    }
 `;
 
 const Title = (Number, Name) => {
     return (
         <Component>
-            <h1 style={{ fontSize: 'calc(2.7em + 2vw)', opacity: '70%', margin: '0' }}>{ Number }</h1>
-            <h1 style={{ fontSize: 'calc(3.5em + 2vw)', margin: '0' }}>{ Name }</h1>
+            <h1
+                style={{
+                    fontSize: 'calc(2.7em + 2vw)',
+                    opacity: '70%',
+                    margin: '0',
+                }}
+            >
+                {Number}
+            </h1>
+            <h1 style={{ fontSize: 'calc(3.5em + 2vw)', margin: '0' }}>
+                {Name}
+            </h1>
         </Component>
     );
 };

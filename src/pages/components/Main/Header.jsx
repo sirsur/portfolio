@@ -2,13 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.header`
+    grid-column: 1 / 3;
+    grid-row: 1;
     display: flex;
     flex-direction: column;
     font-weight: 900;
 `;
 
 const Link = styled.a`
-    font-size: 2.5em;
+    font-size: calc(1.5em + 1vw);
     color: #a1a1a1;
     text-decoration: none;
     margin-bottom: 0.5rem;
@@ -25,10 +27,10 @@ const Link = styled.a`
 const Header = () => {
     return (
         <Container>
-            <Link href='#edu'>01 EDUCATION</Link>
-            <Link href='#skills'>02 SKILLS</Link>
-            <Link href='#projects'>03 PROJECTS</Link>
-            <Link href='#exp'>04 EXPERIENCE</Link>
+            <Link href='#skills'>01 SKILLS</Link>
+            <Link href='#projects'>02 PROJECTS</Link>
+            <Link href='#exp'>03 EXPERIENCE</Link>
+            <Link href='#edu'>04 EDUCATION</Link>
             <Link href='#links'>05 LINKS</Link>
         </Container>
     );

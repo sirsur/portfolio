@@ -10,6 +10,11 @@ const Container = styled.div`
     position: relative;
     width: 100vw;
     right: 2.4rem;
+
+    @media (min-width: 1024px) {
+        width: 46vw;
+        right: 8rem;
+    }
 `;
 
 const ContainerFlex = styled.span`
@@ -19,6 +24,10 @@ const ContainerFlex = styled.span`
     width: fit-content;
     padding: 0 3.7rem 0 4.7rem;
     position: relative;
+
+    @media (min-width: 1024px) {
+        padding: 0 0 0 35%;
+    }
 `;
 
 const StackUsetech = () => {

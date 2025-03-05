@@ -5,8 +5,11 @@ import ExpUts from '../Experience/ExpUts';
 import ExpUsetech from '../Experience/ExpUsetech';
 import ExpSigma from '../Experience/ExpSigma';
 
-const Container = styled.section``;
-const ContainerFlex = styled.span`
+const Container = styled.section`
+    grid-row: 5 / 8;
+    grid-column: 1;
+`;
+const ContainerFlex = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -15,7 +18,7 @@ const ContainerFlex = styled.span`
 const Experience = () => {
     return (
         <Container id='exp'>
-            {Title('04', 'EXP')}
+            {Title('03', 'EXP')}
             <ContainerFlex>
                 <ExpUts />
                 <ExpUsetech />
